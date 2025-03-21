@@ -1,6 +1,8 @@
 import { useState,useEffect } from 'react'
 import './App.css'
 import {Card} from "./components/Card.jsx"
+import MapComponent from "./components/map.jsx"
+
 function App() {
   const [count, setCount] = useState(0)
   const [another,setanother] = useState(0)
@@ -33,10 +35,14 @@ function App() {
           </div>
         ))
       }
+
+      <MapComponent />
       
     </>
     
   )
 }
+
+
 
 export default App
