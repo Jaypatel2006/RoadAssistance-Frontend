@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div
-      >dev</div>
+      >new</div>
     </>
     
   )
