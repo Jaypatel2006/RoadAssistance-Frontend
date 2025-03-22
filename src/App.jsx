@@ -8,18 +8,6 @@ function App() {
 
   return (
     <>
-      <p>hello </p>
-      <p className='text-3xl font-bold'> Count : {count} {name}</p>
-      <button onClick={()=>{
-        setCount(count+1)
-        setname("hello")
-      }}> Click to increase</button>
-      <button onClick={()=>{
-        setanother(another+1)
-        setname("hello")
-      }}> Click to increase</button>
-
-      <MapComponent />
       
     </>
     
